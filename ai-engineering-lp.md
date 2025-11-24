@@ -1,5 +1,7 @@
 # AI Engineering Personal Learning Path
 
+## 1. Prompt "Engineering"
+
 ```mermaid
 ---
 config:
@@ -7,10 +9,7 @@ config:
 ---
 
 mindmap
-  root((IA Engineering Learning Path))
-
-    [Prompt Writing]
-
+  root((Prompt Writing))
       Task & Framing
         Task Framing
         Role Assignment
@@ -34,8 +33,18 @@ mindmap
       Reusability & Modularity
         Modular Prompts
 
-    [Context Engineering]
+    
+```
 
+## 2. Context Engineering
+```mermaid
+---
+config:
+  layout: tidy-tree
+---
+
+mindmap
+  root((Context Engineering))
       (RAG)
         Retrieval Quality
         Chunking Strategies
@@ -64,28 +73,32 @@ mindmap
         Reusability Across Agents/Models
         Safety Boundaries Per Skill
         Versioning & Governance of Skills
-
-
-      (Memory Management)
-        Models
-          Multi‑sector memory (semantic, episodic, procedural, emotional, reflective)
-          Hierarchical Memory Decomposition (HMD)
-          Multiple embeddings per memory
-          Automatic decay per sector
-          Coactivation reinforcement
-          Salience + recency weighting
-          Waypoint graph linking
-          Explainable recall paths
-        Cognitive Operations
-          Pattern clustering (detect similar memories)
-          Memory consolidation (merge duplicates)
-          Context summaries
-          User summaries
-          Sector‑aware retrieval
-          Cross‑sector associative recall
-          Adaptive decay cycles
     
 ```
 
+## 3. Memory Management
+```
+mindmap
+  root((Memory Management — Key Concepts 2025))
 
+    Models
+      Semantic & Episodic Memory("Stores factual knowledge (semantic) and lived interactions/events (episodic).")
+      Salience & Recency Weighting("Prioritizes what was important or recent to avoid irrelevant recall.")
+      Automatic Decay("Gradually removes low-value or outdated memories to prevent drift.")
+      Multiple Embeddings (optional)("Captures different semantic angles of the same memory when useful.")
+      Explainable Recall Paths("Shows why a memory was retrieved; essential for debugging and governance.")
+
+    Cognitive Operations
+      Pattern Clustering("Groups similar memories to reduce noise and improve retrieval efficiency.")
+      Memory Consolidation("Merges duplicates and strengthens consistent information.")
+      Context Summaries("Compresses past context into compact, reusable summaries.")
+      Sector-aware Retrieval("Retrieves only the memory type relevant to the task (technical, personal, contextual…).")
+      Associative Recall("Connects memories across sectors to generate useful insights or correlations.")
+
+    Essential Additions
+      Memory Permissions("Controls which agents or tools can access specific memory sectors.")
+      Memory Versioning("Tracks how memories evolve over time; enables audits and rollbacks.")
+      Conflict Resolution("Detects and resolves contradictory information in the memory store.")
+      Memory Validity Scoring("Scores memories based on reliability, freshness, and source quality.")
+```
 
