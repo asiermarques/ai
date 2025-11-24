@@ -149,8 +149,63 @@
 - **Versioning & Governance of Skills**
 
 
+## 3. Agents (with LangChain integration points)
 
-## 3. Memory Management
+### Agent Architecture
+- **Agent Definition**
+  - Clear task boundaries, goals, constraints.
+  - LangChain: *LCEL (LangChain Expression Language)* para definir flujos declarativos.
+
+- **Agent Loop Design**
+  - Plan → Act → Observe → Reflect.
+  - LangChain: *Agent Executors*, *Plan-and-Execute Agent*, *ReAct Agent*.
+
+- **Role & Capability Assignment**
+  - Single-agent vs multi-agent roles.
+  - LangChain: *Multi-agent workflows*, *Agent orchestration*.
+
+
+
+### Tool & Skill Integration
+- **Tool Use Policies**
+  - When to call tools, fallback logic.
+  - LangChain: *Tool interface*, `@tool` decorator, *StructuredTool*, *Bound tools*.
+
+- **Skill Invocation**
+  - Switch between base model reasoning and specialized capabilities.
+  - LangChain: *Chains* como “skills”: SummarizationChain, RetrievalQAChain, TranslationChain, etc.
+
+
+### Planning & Reasoning
+- **Structured Planning**
+  - Decompose tasks, build actionable steps.
+  - LangChain: *Planner agents*, *ReAct + LCEL pipelines*.
+
+- **Reflection Mechanisms**
+  - Self-evaluation per iteration.
+  - LangChain: *Self-critique prompts*, *Self-correction chains*.
+
+- **Task Decomposition**
+  - Split complex tasks dynamically.
+  - LangChain: *Task Decomposition Chain*, *RouterChain*.
+
+
+
+### Safety & Control
+- **Safety Rails**
+  - Allowed/forbidden actions.
+  - LangChain: *Tool permissions*, *guarded tool wrappers*, *sandboxed tools*.
+
+- **Permission Model**
+  - Granular access to tools and data.
+  - LangChain: *Tool authentication/authorization middleware*.
+
+- **Autonomy Limits**
+  - Max reasoning steps
+
+
+
+## 4. Memory Management
 
 ### Models
 - **Semantic & Episodic Memory**  
