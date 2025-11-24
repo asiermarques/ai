@@ -8,7 +8,7 @@
 
 
 
-## [3. Agents (with LangChain & Spring AI integration points)](3-agents-learning-path.md)
+## [3. Agents](3-agents-learning-path.md)
 
 
 ## [4. Memory Management](4-memory-management.md)
