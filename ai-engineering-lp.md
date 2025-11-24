@@ -87,23 +87,37 @@ mindmap
   root((Memory Management — Key Concepts 2025))
 
     Models
-      Semantic & Episodic Memory("Stores factual knowledge (semantic) and lived interactions/events (episodic).")
-      Salience & Recency Weighting("Prioritizes what was important or recent to avoid irrelevant recall.")
-      Automatic Decay("Gradually removes low-value or outdated memories to prevent drift.")
-      Multiple Embeddings("Captures different semantic angles of the same memory when useful.")
-      Explainable Recall Paths("Shows why a memory was retrieved; essential for debugging and governance.")
+      Semantic & Episodic Memory
+        Desc("Stores factual knowledge (semantic) and lived interactions/events (episodic).")
+      Salience & Recency Weighting
+        Desc("Prioritizes important or recent memories for higher-quality retrieval.")
+      Automatic Decay
+        Desc("Gradually removes outdated or low-value memories to prevent drift.")
+      Multiple Embeddings (optional)
+        Desc("Uses several embeddings to capture different semantic angles of the same memory.")
+      Explainable Recall Paths
+        Desc("Shows why a memory was retrieved, improving transparency and debugging.")
 
     Cognitive Operations
-      Pattern Clustering("Groups similar memories to reduce noise and improve retrieval efficiency.")
-      Memory Consolidation("Merges duplicates and strengthens consistent information.")
-      Context Summaries("Compresses past context into compact, reusable summaries.")
-      Sector-aware Retrieval("Retrieves only the memory type relevant to the task (technical, personal, contextual…).")
-      Associative Recall("Connects memories across sectors to generate useful insights or correlations.")
+      Pattern Clustering
+        Desc("Groups similar memories to reduce noise and enhance retrieval.")
+      Memory Consolidation
+        Desc("Merges duplicates and strengthens consistent information.")
+      Context Summaries
+        Desc("Compresses interaction history into compact, efficient summaries.")
+      Sector-aware Retrieval
+        Desc("Retrieves only memories relevant to the task’s sector (technical, contextual, personal, etc.).")
+      Associative Recall
+        Desc("Connects related memories across sectors to generate useful insights.")
 
     Essential Additions
-      Memory Permissions("Controls which agents or tools can access specific memory sectors.")
-      Memory Versioning("Tracks how memories evolve over time; enables audits and rollbacks.")
-      Conflict Resolution("Detects and resolves contradictory information in the memory store.")
-      Memory Validity Scoring("Scores memories based on reliability, freshness, and source quality.")
+      Memory Permissions
+        Desc("Controls which agents or tools can access specific memory sectors.")
+      Memory Versioning
+        Desc("Tracks changes in memories over time for audits and rollbacks.")
+      Conflict Resolution
+        Desc("Detects and resolves contradictory or competing memories.")
+      Memory Validity Scoring
+        Desc("Scores memories by reliability, freshness, and source quality.")
 ```
 
