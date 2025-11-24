@@ -149,7 +149,7 @@
 - **Versioning & Governance of Skills**
 
 
-## [4. Agents (with LangChain & Spring AI integration points)](agents-learning-path.md)
+## [4. Agents (with LangChain & Spring AI integration points)](4.agents-learning-path.md)
 
 
 ## 4. Memory Management
