@@ -77,7 +77,8 @@ mindmap
 ```
 
 ## 3. Memory Management
-```
+
+```mermaid
 mindmap
   root((Memory Management — Key Concepts 2025))
 
