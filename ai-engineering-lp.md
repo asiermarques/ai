@@ -81,14 +81,63 @@
 
 
 ### Tools
+
 - **Model Context Protocol (MCP)**
+  - Standardized interface between models and tools
+  - Auto-discovery of capabilities
+  - Structured request/response format
+  - Tool permission negotiation
+  - Vendor-agnostic integration layer
+
 - **Tool Schemas (Inputs/Outputs)**
+  - Strong typing of parameters
+  - Validation rules for inputs
+  - Clear definition of side effects
+  - Idempotency requirements
+  - Error format standardization
+
 - **Permission Scopes**
+  - Least-privilege access for each tool
+  - Read vs. write vs. destructive actions
+  - Temporary vs. persistent permissions
+  - Sensitive-data separation
+  - Auditable permission changes
+
 - **Tool Selection Logic**
+  - Matching task → tool based on intent
+  - Multi-tool fallback logic
+  - Prioritization (cheapest, safest, fastest)
+  - Avoiding tool misfires (incorrect tool usage)
+  - Self-checks before calling a tool
+
 - **Action Validation**
+  - Pre-execution validation (sanity checks)
+  - Post-execution verification (did it work?)
+  - Result conformity to schema
+  - Detecting unintended side effects
+  - Rejecting unsafe or incomplete outputs
+
 - **Observability & Logging**
+  - Log each tool invocation with parameters
+  - Latency, cost, and success metrics
+  - Tracing across tool chains
+  - Agent/tool correlation IDs
+  - Monitoring anomalous tool usage
+
 - **Error Recovery / Retries**
+  - Retry policies (exponential backoff, max retries)
+  - Fallback tools or alternative strategies
+  - State rollback mechanisms
+  - Human handoff when recovery fails
+  - Classification of recoverable vs. fatal errors
+
 - **Safety & Guardrails for Tools**
+  - Allowlist of safe actions
+  - Blocklist of forbidden operations
+  - Rate limits & quotas
+  - Safe-mode execution for high-risk tools
+  - Continuous security auditing
+
 
 ### Anthropic Skills
 - **Capability Modularization**
