@@ -1,8 +1,8 @@
 # AI Engineering Personal Learning Path
 
 ```mermaid
-AI Engineering
-  root((mindmap))
+mindmap
+  root((IA Engineering Learning Path))
 
     Prompt Writing
 
