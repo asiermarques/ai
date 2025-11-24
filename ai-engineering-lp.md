@@ -31,7 +31,7 @@ mindmap
 
     [Context Engineering]
 
-      RAG
+      (RAG)
         Retrieval Quality
         Chunking Strategies
         Re-ranking
@@ -41,7 +41,7 @@ mindmap
         Multi-step Retrieval
         Evaluation (Evals for RAG)
   
-      Tools
+      (Tools)
         Model Context Protocol (MCP)
         Tool Schemas (Inputs/Outputs)
         Permission Scopes
@@ -51,7 +51,7 @@ mindmap
         Error Recovery / Retries
         Safety & Guardrails for Tools
   
-      Anthropic Skills
+      (Anthropic Skills)
         Capability Modularization
         Skill Invocation Logic
         Skill Chaining
@@ -59,6 +59,26 @@ mindmap
         Reusability Across Agents/Models
         Safety Boundaries Per Skill
         Versioning & Governance of Skills
+
+
+      (Memory Management)
+        Models
+          Multi‑sector memory (semantic, episodic, procedural, emotional, reflective)
+          Hierarchical Memory Decomposition (HMD)
+          Multiple embeddings per memory
+          Automatic decay per sector
+          Coactivation reinforcement
+          Salience + recency weighting
+          Waypoint graph linking
+          Explainable recall paths
+        Cognitive Operations
+          Pattern clustering (detect similar memories)
+          Memory consolidation (merge duplicates)
+          Context summaries
+          User summaries
+          Sector‑aware retrieval
+          Cross‑sector associative recall
+          Adaptive decay cycles
     
 ```
 
