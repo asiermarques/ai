@@ -79,6 +79,10 @@ mindmap
 ## 3. Memory Management
 
 ```mermaid
+---
+config:
+  layout: tidy-tree
+---
 mindmap
   root((Memory Management — Key Concepts 2025))
 
@@ -86,7 +90,7 @@ mindmap
       Semantic & Episodic Memory("Stores factual knowledge (semantic) and lived interactions/events (episodic).")
       Salience & Recency Weighting("Prioritizes what was important or recent to avoid irrelevant recall.")
       Automatic Decay("Gradually removes low-value or outdated memories to prevent drift.")
-      Multiple Embeddings (optional)("Captures different semantic angles of the same memory when useful.")
+      Multiple Embeddings("Captures different semantic angles of the same memory when useful.")
       Explainable Recall Paths("Shows why a memory was retrieved; essential for debugging and governance.")
 
     Cognitive Operations
