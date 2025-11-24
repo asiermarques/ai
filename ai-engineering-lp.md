@@ -1,6 +1,11 @@
 # AI Engineering Personal Learning Path
 
 ```mermaid
+---
+config:
+  layout: tidy-tree
+---
+
 mindmap
   root((IA Engineering Learning Path))
 
