@@ -25,19 +25,60 @@
 ### Reusability & Modularity
 - **Modular Prompts** – reusable prompts for analysis, synthesis, verification.
 
----
+
 
 ## 2. Context Engineering
 
 ### RAG
+
 - **Retrieval Quality**
+  - High-recall vs. high-precision tradeoffs
+  - Semantic vs. keyword vs. hybrid search
+  - Top-k vs. dynamic retrieval thresholds
+  - Evaluating noise vs. relevance
+
 - **Chunking Strategies**
+  - Semantic chunking (LLM-aware)
+  - Overlapping windows to preserve context
+  - Adaptive chunk sizes based on document type
+  - Sentence/paragraph boundary respect
+
 - **Re-ranking**
+  - Cross-encoder re-ranking
+  - LLM-based relevance scoring
+  - Penalizing redundancy
+  - Domain-specific ranking boosts
+
 - **Context Filtering**
+  - Remove irrelevant or noisy chunks
+  - Deduplicate overlapping information
+  - Apply metadata filters (author, type, timestamp)
+  - Enforce max-context size budgets
+
 - **Query Transformation**
+  - Expand/correct ambiguous queries
+  - Semantic query rewriting
+  - Multi-query generation (n variations)
+  - Intent classification before retrieval
+
 - **Grounding & Fact Checking**
+  - Verify retrieved facts against source docs
+  - Highlight conflicts or contradictions
+  - Confidence scoring
+  - Reject ungrounded LLM responses
+
 - **Multi-step Retrieval**
+  - Retrieve → read → refine → retrieve again
+  - Iterative narrowing of context
+  - Agent-based exploration of sources
+  - Multi-agent voting for relevance
+
 - **Evaluation (Evals for RAG)**
+  - Retrieval precision/recall benchmarks
+  - Coverage tests (missing info)
+  - Hallucination detection evals
+  - End-to-end task performance scoring
+
 
 ### Tools
 - **Model Context Protocol (MCP)**
@@ -58,7 +99,7 @@
 - **Safety Boundaries Per Skill**
 - **Versioning & Governance of Skills**
 
----
+
 
 ## 3. Memory Management
 
