@@ -1,4 +1,4 @@
-# 1. Prompt Engineering
+# 1. Prompt Writing
 
 ## Task & Framing
 - **Task Framing** – define the task precisely.
