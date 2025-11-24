@@ -1,5 +1,5 @@
 
-# 4. Agents (with LangChain & Spring AI integration points)
+# 3. Agents (with LangChain & Spring AI integration points)
 
 ## Agent Architecture
 - **Agent Definition**
