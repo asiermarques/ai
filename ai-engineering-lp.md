@@ -4,7 +4,7 @@
 mindmap
   root((IA Engineering Learning Path))
 
-    Prompt Writing
+    [Prompt Writing]
 
       Task & Framing
         Task Framing
@@ -29,7 +29,7 @@ mindmap
       Reusability & Modularity
         Modular Prompts
 
-    Context Engineering
+    [Context Engineering]
 
       RAG
         Retrieval Quality
